@@ -67,3 +67,5 @@ void isBlank_ShouldReturnTrueForNullOrBlankStrings(String input) {
     assertTrue(Strings.isBlank(input));
 }
 ```
+
+### **enum 활용**
