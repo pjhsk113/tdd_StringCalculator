@@ -68,4 +68,3 @@ void isBlank_ShouldReturnTrueForNullOrBlankStrings(String input) {
 }
 ```
 
-### **enum 활용**
