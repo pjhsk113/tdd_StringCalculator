@@ -15,7 +15,7 @@ class StringCalculatorTest {
     @ValueSource(strings = {" ", ""})
     public void 입력값은_공백이_아니어야한다(String input) {
         assertThatIllegalArgumentException()
-                .isThrownBy(() -> StringCalculator.isBlank(input))
+                .isThrownBy(() -> StringCalculator.calculateResult(input))
                 .isInstanceOf(IllegalArgumentException.class);
     }
 
