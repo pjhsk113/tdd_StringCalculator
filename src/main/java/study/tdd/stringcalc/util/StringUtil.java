@@ -1,6 +1,8 @@
 package study.tdd.stringcalc.util;
 
 public class StringUtil {
+    private StringUtil() { }
+
     public static String[] split(String input) {
         // 공백으로 split
         return input.split(" ");
