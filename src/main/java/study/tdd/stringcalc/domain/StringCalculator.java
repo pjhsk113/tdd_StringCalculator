@@ -24,7 +24,7 @@ public class StringCalculator {
 
     /* validation check*/
     private static void isBlank(String input) {
-        if (input.isEmpty() || input.equals(" ")) {
+        if (input.trim().isEmpty()) {
             throw new IllegalArgumentException(ExceptionMessage.INPUT_VALUE_EMPTY);
         }
     }
